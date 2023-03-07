@@ -143,7 +143,7 @@ a{
     color: white;
     border-radius: 3px;
 }
-footer{
+/* footer{
     width: 100vw;
     height: 50px;
     background-color: aquamarine;
@@ -160,4 +160,19 @@ footer .content h4{
     text-decoration: none;
     font-weight: 600;
     text-transform: capitalize;
+} */
+
+
+/* responsive styles */
+
+/* for nav menu */
+@media (max-width: 800px) {
+    .head_container__2_ul{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%;
+        justify-content: space-around;
+        align-items: left;
+        height: 100%;
+    } */
 }
