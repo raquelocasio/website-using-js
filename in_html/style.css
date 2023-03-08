@@ -18,12 +18,13 @@
 .head_container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0px 10px;
 }
 .head_container__1{
     width: 50%;
-    align-self:last baseline;
+    /* align-self:last baseline; */
 }
 .head_container__2{
     width: 50%;
@@ -161,3 +162,11 @@ footer .content h4{
     font-weight: 600;
     text-transform: capitalize;
 }
+
+/* responsive styles */
+/* @media screen and (max-width: 600px) {
+    .companey_left, .companey_right {
+        display: block; 
+        width: 100%;
+    }
+  } */
