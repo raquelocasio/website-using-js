@@ -9,6 +9,18 @@ ul li {
     display: inline;
 }
 
-.head_container__2 {
+.head_container__2, .cta_button {
     margin: 0 0 0 auto;
+}
+
+.about_companey, .cta_container {
+    display: flex;
+}
+
+.companey_left, .companey_right {
+    width: 50%;
+}
+
+h4 {
+    text-align: center;
 }
