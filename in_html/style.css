@@ -1,2 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
+.head_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    display: inline;
+}
+
+.head_container__2 {
+    margin: 0 0 0 auto;
+}
