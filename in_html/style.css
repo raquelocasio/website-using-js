@@ -9,11 +9,15 @@
     letter-spacing: 2px;
 }
 
-header {
+/* header, main, #thirdrow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
+} */
+
+header {
+    display: grid;
+}
 
 nav ul li {
     display: inline;
@@ -23,6 +27,29 @@ nav {
     margin-left: auto;
     margin-right: 0;
 }
+
+#main-left, #main-right {
+    width: 50%;
+}
+
+#thirdrow-left {
+    width: 70%;
+}
+
+#thirdrow-right {
+    width: 30%;
+}
+
+footer h4 {
+    margin: 0 auto 0 auto;
+}
+
+/* main sections will stack on smaller screens */
+@media screen and (max-width: 600px) {
+    #main-left, #main-right, #thirdrowleft, #thirdrowright {
+        width: 100%;
+    }
+  }
 
 /* .head{
     width: 100vw;
